@@ -47,6 +47,13 @@ export default {
       },
     },
     {
+      name: 'payment',
+      displayName: 'Cash Payment',
+      meta: {
+        icon: 'attach_money',
+      },
+    },
+    {
       name: 'Attendance',
       displayName: 'Attendance',
       meta: {

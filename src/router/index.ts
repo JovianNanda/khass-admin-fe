@@ -37,6 +37,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../pages/transactions/TransactionsPage.vue'),
       },
       {
+        name: 'payment',
+        path: 'payment',
+        component: () => import('../pages/payments/PaymentsPage.vue'),
+      },
+      {
         name: 'theaters',
         path: '/theater',
         redirect: { name: 'theater-list' },
